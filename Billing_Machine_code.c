@@ -54,6 +54,8 @@ int main() {
 
         printf("Item added to cart!\n");
     }
+    
+    printf("cart list: %d",quantity);
 
     printf("\n*******************************\n");
     printf("Total bill: $%.2f\n", total);
