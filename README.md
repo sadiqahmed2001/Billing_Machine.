@@ -113,6 +113,8 @@ int main() {
         printf("Item added to cart!\n");
     }
 
+    printf("cart list: %d",quantity);
+
     // Printing total bill and farewell message
     printf("\n*******************************\n");
     printf("Total bill: $%.2f\n", total);
